@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="title">
+        <img src="./5432795.png" alt="Shopping List icon" />
+        <h1>Shopping List</h1>
+      </header>
+    </div>
+    <div class="addToList">
+      <input type="text" placeholder="Enter Item" />
+      <input type="button" value="+ Add Item" />
+    </div>
+    <input type="text" placeholder="Filter Items" class="filterItems" />
+    <div class="list">
+      <ul>
+        <div class="item">
+          <li>Apples</li>
+          <i class="fa-solid fa-x" style="color: #f81302"></i>
+        </div>
+        <div class="item">
+          <li>Orange Juice</li>
+          <i class="fa-solid fa-x" style="color: #f81302"></i>
+        </div>
+        <div class="item">
+          <li>Oreos</li>
+          <i class="fa-solid fa-x" style="color: #f81302"></i>
+        </div>
+        <div class="item">
+          <li>Milk</li>
+          <i class="fa-solid fa-x" style="color: #f81302"></i>
+        </div>
+      </ul>
+      <input type="button" value="Clear All" class="clearAll" />
+    </div>
+  </body>
+</html>

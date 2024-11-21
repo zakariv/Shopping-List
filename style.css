@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.title img {
+  width: 10%;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #232323;
+}
+
+.addToList {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  align-self: center;
+  justify-content: center;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+.addToList input[type='text'] {
+  padding: 0.8rem;
+  outline: none;
+  border-radius: 3px;
+  border: #c5c5c5 solid 1px;
+  font-size: 0.9rem;
+}
+
+.addToList input[type='button'] {
+  width: 10rem;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  outline: none;
+  border-radius: 3px;
+  color: #fff;
+  background: #232323;
+  transition: transform 0.3s ease-in;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.addToList input[type='button']:hover {
+  transform: scale(1.02);
+}
+
+.filterItems {
+  display: flex;
+  margin: auto;
+  width: 30rem;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  border-bottom: #c5c5c5 solid 1px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  background: #fdfcfc;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  transition: transform 0.3s ease-in;
+}
+.item:hover {
+  transform: scale(1.01);
+}
+
+.item i {
+  cursor: pointer;
+}
+
+.clearAll {
+  padding: 0.8rem;
+  border-radius: 3px;
+  border: 1px solid #c5c5c5;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+.clearAll:hover {
+  transform: scale(1.01);
+}
