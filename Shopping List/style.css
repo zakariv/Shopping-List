@@ -62,7 +62,7 @@ ul {
   font-size: 0.9rem;
 }
 
-.addToList input[type='button'] {
+.addButton {
   width: 10rem;
   padding: 0.8rem;
   font-size: 0.9rem;
@@ -109,10 +109,6 @@ ul {
   border-radius: 3px;
   margin-bottom: 1rem;
   font-weight: 600;
-  transition: transform 0.3s ease-in;
-}
-.item:hover {
-  transform: scale(1.01);
 }
 
 .item i {
