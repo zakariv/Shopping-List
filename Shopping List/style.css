@@ -132,3 +132,8 @@ ul {
 .clearAll:hover {
   transform: scale(1.01);
 }
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
